@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CarrinhoProvider } from "./context/CarrinhoContext";
 import Home from "./pages/Home";
 import Carrinho from "./pages/Carrinho";
 import PaginaErro from "./pages/PaginaErro";
-import { CarrinhoProvider } from "./context/CarrinhoContext";
 
 import "./App.css";
 
